@@ -10,9 +10,11 @@ devices(id: string): Observable<Device[]> {
 ```
 
 ### long-lived observables
-    devices$(id: string): Observable<Device[]> {
-	    return (/* http stuff */);
-    }
+```typescript
+devices$(id: string): Observable<Device[]> {
+    return (/* http stuff */);
+}
+```
 
 
 ## State shape
